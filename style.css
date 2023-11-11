@@ -1,0 +1,42 @@
+/* div{
+    color: aqua;
+    margin: 25px;
+    padding: 28px;
+    background-color: black;
+
+}
+*{
+    color: rgb(255, 0, 0);
+    margin: auto;
+}
+div .class{
+    color: blue;
+}
+div #id{
+    width: 25px;
+    height: 25px;
+    border: 5px;
+    border-color: brown;
+} */
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+};
+
+.child-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.child-node {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
